@@ -1,0 +1,29 @@
+body{
+    background-color: darkcyan;
+    margin: 200px 40%;
+}
+
+form {
+    background-color: cyan;
+    width: 300px;
+    height: 44px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+input {
+    all: unset;
+    font: 16px system-ui;
+    color:indianred;
+    height: 100%;
+    width: 100%;
+    padding: 6px 10px;
+
+}
+
+::placeholder {
+    color: darkblue;
+    opacity: 0.7;
+}
